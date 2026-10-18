@@ -19,6 +19,7 @@ const users = [
     { id: 3, name: 'Bob Johnson', email: 'bob.johnson@example.com' },
     { id: 4, name: 'Alice Williams', email: 'alice.williams@example.com' }
 ]
+console.log(users.length);
 
 app.get('/users', (req, res) => {
     res.send(users);
